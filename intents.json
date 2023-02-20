@@ -1,0 +1,27 @@
+{"intents": [
+  {
+    "tag": "greetings",
+    "patterns": ["hello", "hey", "Hi", "good day", "greetings", "what's up?", "how's it going?"]
+    "responses": ["Hello!", "Hey!", "What can I do for you?"] 
+},
+  {"tag":  "goodbye",
+  "patterns":  ["bye", "see ya", "see you later", "Goodbye", "Have a good day"],
+  "responses":  ["Take care!", "See you", "Have a nice day :)", "Bye!"]
+  },
+  {"tag": "age",
+  "patterns":  ["how old are you?", "how old r u?", "How old is Chelsea", "age?"],
+  "responses":  ["Chelsea is 22 years old.", "Chelsea is 22.", "She's 22!"]
+  },
+  {"tag": "name",
+  "patterns": ["what's your name?", "what is your name?", "what should I call you", "Can you tell me your name", "who are you"],
+  "responses": ["My name is Neural!", "You can call me Neural", "I am Neural, a virtual chatbot!"]
+  },
+  {"tag": "shop",
+  "patterns": ["I'd like to buy something", "I'd like to purchase something", "what are your products?", "What do you recommend?", "what are you selling?"],
+  "responses": ["NeuralNet has a website with many different household items!"]
+  },
+  {"tag": "hours",
+  "patterns": ["when are you guys open?", "what are your hours", "hours opened?", "hours of operation?"],
+  "responses": ["24/7"]
+  }
+]}
